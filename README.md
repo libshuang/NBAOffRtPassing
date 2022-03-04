@@ -16,12 +16,18 @@
 <b> Context </b>
 ***In Progress***
 
-One of the more understated parts of today's basketball game is passing. Passing is such an integral part of the game and it’s what makes the game so beautiful to watch. Notorious offensive schemes, such as Chicago Bulls/Los Angeles Lakers' Triangle Offense, Spurs's elecentric ball movement, and the Warriors offensive system has made many strides in building many powerhouse franchises that resulted in championships. 
+One of the more understated parts of today's basketball game is passing. Passing is such an integral part of the game and it’s what makes the game so fun to watch. Notorious offensive schemes, such as Chicago Bulls/Los Angeles Lakers' Triangle Offense, Spurs's elecentric ball movement, and the Warriors offensive system has made many strides in building many powerhouse franchises that resulted in numerous championships.
+
+The purpose of this project is to see and statisically prove if passing is an integral part to an offense, and if so, to what extent it has on an offense. 
 
 
+<b> Key Objectives </b>
+- Proving if there is a correlation between number of passes and scoring per game for all 30 teams.
+- Defining the proper variables for A/B testing in proving causation
+- -Applying Principal Component Analysis to further improve correlation
 
-<b> Key Objective </b>
-- Rank Players based on Past Historical Boxscores, Team Record (for stability), salary (more $, more years left on contract means more overall minutes), and Injury History
-- Apply selective Z-scoring to the top 200 players from the previous year.
-- Adjust all the Percentage Weights (FG%, FT%, and 3PT%) based on volume
+<b> Current Findings </b> 
+
+In the initial classification test, AUC ROC score was able to rise up by 9% when adding in passing features, from baseline (AST/TO) numbers.
+
 ---
